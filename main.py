@@ -91,3 +91,4 @@ while userinput != "exit":
         for value, count in sorted(category.items()):
             if count >= int(userinput):
                print (value, count)
+print("Goodbye!")
